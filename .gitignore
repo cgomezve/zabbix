@@ -1,0 +1,28 @@
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Datos sensibles
+*.key
+*.pem
+*.cert
+*password*
+*secret*
+*credential*
+
+# Binarios
+*.exe
+*.dll
+*.so
+*.o
+
+# Backups
+*.bak
+*.backup
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
