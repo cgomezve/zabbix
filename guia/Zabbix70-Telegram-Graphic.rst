@@ -405,6 +405,13 @@ Abrir Zabbix browser en la opcion “Monitoring → Latest Data” buscamos cual
 .. figure:: ../images-telegram.70/01.png
 
 
+Necesitas el:
+
+ID_GRUPO_Telegram: -5532136968
+
+El ID del Grafico: 465219
+
+
 El comando para verificar es.::
 
 	zabbix-telegram.sh Group-ID Subject "Item Graphic: [graficoID]"
