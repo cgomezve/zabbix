@@ -14,9 +14,6 @@ En nuestro browser colocaremos el token de acceso que nos proporciono el bot Bot
 https://api.telegram.org/bot327956367:777774Im0333333Q3bhz9I5yfHhvS5RuG_0/getupdates
 Con estos dos datos, el token de acceso y el id del grupo comenzaremos a configurar nuestro zabbix
 
-.. figure:: ../images-telegram.70/01.png
-
-.. figure:: ../images-telegram.70/02.png
 
 Una vez instalado el API buscaremos la ruta donde estan instalados los script de alertas.::
 
@@ -403,7 +400,7 @@ Caso quira aumentar el período del gráfico de 3h.::
 Probar antes el script, si no funciona NO continuar.
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Abrir Zabbix browser en la opcion “Monitoring → Latest Data” buscamos cualquier servidor y abrimos un grafico que tenga data.::
+Abrir Zabbix browser en la opcion “Monitoring → Latest Data” buscamos cualquier servidor y abrimos un grafico que tenga data.:
 
 .. figure:: ../images-telegram.70/01.png
 
@@ -471,7 +468,7 @@ Ahora ir a Alerts, Action, Trigger Actions y click en Create Action.
 
 .. figure:: ../images-telegram.70/09.png
 
-.. figure:: ../images-telegram.70/1.png
+.. figure:: ../images-telegram.70/10.png
 
 Users
 +++++++
