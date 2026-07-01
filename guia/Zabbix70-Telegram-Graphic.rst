@@ -405,15 +405,11 @@ Abrir Zabbix browser en la opcion “Monitoring → Latest Data” buscamos cual
 .. figure:: ../images-telegram.70/01.png
 
 
-.. figure:: ../images-telegram.70/02.png
-
-http://192.168.1.6/zabbix/history.php?action=showgraph&itemid=24152&sid=4c6d26afc44a5b18
-
 El comando para verificar es.::
 
 	zabbix-telegram.sh Group-ID Subject "Item Graphic: [graficoID]"
 
-	[root@lrkprdappzab01 alertscripts]# ./zabbix-telegram.sh -5532136968 " Test de Prueba" "Item Graphic: [465219] "
+	[root@srvzabbix alertscripts]# ./zabbix-telegram.sh -5532136968 " Test de Prueba" "Item Graphic: [465219] "
 
 Hemos comprobado que el script esta trabajando correctamente, ahora a configurar via web zabbix para que envie las alarmas via telegram.
 
@@ -421,13 +417,6 @@ Media type
 +++++++++++
 
 En la interfaz de Zabbix ir, go to Adminstration, Media types, y click en Create media type.
-
-.. figure:: ../images-telegram.70/05.png
-
-.. figure:: ../images-telegram.70/03.png
-
-.. figure:: ../images-telegram.70/04.png
-
 
 .::
 
@@ -441,6 +430,16 @@ En la interfaz de Zabbix ir, go to Adminstration, Media types, y click en Create
 	{ALERT.SENDTO}
 	{ALERT.SUBJECT}
 	{ALERT.MESSAGE}
+	
+	
+.. figure:: ../images-telegram.70/05.png
+
+.. figure:: ../images-telegram.70/03.png
+
+.. figure:: ../images-telegram.70/04.png
+
+
+
 
 
 Trigger Actions
@@ -486,6 +485,8 @@ Ir a Administration, Users y seleccionar el usuario. Entonces, ir a Media y clic
 .. figure:: ../images-telegram.70/12.png
 
 .. figure:: ../images-telegram.70/13.png
+
+Aquí es donde debe ir el ID del Grupo de Telegram.
 
 .. figure:: ../images-telegram.70/14.png
 
