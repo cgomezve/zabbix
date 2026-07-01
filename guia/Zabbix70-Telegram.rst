@@ -14,7 +14,7 @@ En nuestro browser colocaremos el token de acceso que nos proporciono el bot Bot
 https://api.telegram.org/bot327956367:777774Im0333333Q3bhz9I5yfHhvS5RuG_0/getupdates
 Con estos dos datos, el token de acceso y el id del grupo comenzaremos a configurar nuestro zabbix
 
-.. figure:: ../images/images-telegram.70telegram/01.png
+.. figure:: ../images-telegram.70/telegram/01.png
 
 Una vez instalado el API buscaremos la ruta donde estan instalados los script de alertas.::
 
@@ -403,10 +403,10 @@ Probar antes el script, si no funciona NO continuar.
 
 Abrir Zabbix browser en la opcion “Monitoring → Latest Data” buscamos cualquier servidor y abrimos un grafico que tenga data.::
 
-.. figure:: ../images/images-telegram.7001.png
+.. figure:: ../images-telegram.70/01.png
 
 
-.. figure:: ../images/images-telegram.7002.png
+.. figure:: ../images-telegram.70/02.png
 
 http://192.168.1.6/zabbix/history.php?action=showgraph&itemid=24152&sid=4c6d26afc44a5b18
 
@@ -423,11 +423,11 @@ Media type
 
 En la interfaz de Zabbix ir, go to Adminstration, Media types, y click en Create media type.
 
-.. figure:: ../images/images-telegram.7005.png
+.. figure:: ../images-telegram.70/05.png
 
-.. figure:: ../images/images-telegram.7003.png
+.. figure:: ../images-telegram.70/03.png
 
-.. figure:: ../images/images-telegram.7004.png
+.. figure:: ../images-telegram.70/04.png
 
 
 .::
@@ -458,18 +458,18 @@ Ahora ir a Alerts, Action, Trigger Actions y click en Create Action.
 
 
 
-.. figure:: ../images/images-telegram.7006.png
+.. figure:: ../images-telegram.70/06.png
 
 
-.. figure:: ../images/images-telegram.7007.png
+.. figure:: ../images-telegram.70/07.png
 
 
-.. figure:: ../images/images-telegram.7008.png
+.. figure:: ../images-telegram.70/08.png
 
 
-.. figure:: ../images/images-telegram.7009.png
+.. figure:: ../images-telegram.70/09.png
 
-.. figure:: ../images/images-telegram.701.png
+.. figure:: ../images-telegram.70/1.png
 
 Users
 +++++++
@@ -482,13 +482,13 @@ Ir a Administration, Users y seleccionar el usuario. Entonces, ir a Media y clic
 	Type: telegram
 	Send to: ID | Telegram ID es es el valor que ya capturamos al principio.
 
-.. figure:: ../images/images-telegram.7011.png
+.. figure:: ../images-telegram.70/11.png
 
-.. figure:: ../images/images-telegram.7012.png
+.. figure:: ../images-telegram.70/12.png
 
-.. figure:: ../images/images-telegram.7013.png
+.. figure:: ../images-telegram.70/13.png
 
-.. figure:: ../images/images-telegram.7014.png
+.. figure:: ../images-telegram.70/14.png
 
 Listo ya ahora todos los triggers que se activen seran enviados al Grupo del Telegram. Recuerda que en Action pueden crear action mas especificos, es decir, para que solo envie los mensajes de ciertos triggers o de servidores o de grupos.
 
