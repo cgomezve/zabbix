@@ -8,6 +8,7 @@
 * [Configurar Yowsup 2 para Whatsapp](guia/yowsup.rst)
 * [Configurar Telegram con Zabbix](guia/telegram.rst)
 * [Configurar Telegram Graphic con Zabbix](guia/telegramgraphic.rst)
+* [Configurar Telegram Graphic con Zabbix 7.0](guia/Zabbix70-Telegram-Graphic.rst)
 * [Configurar MySQL partitioning](guia/msqlpartitioning.rst)
 * [Instalar ZABBIX 3.4 en CentOS 7](guia/instalarCentOS7.rst) 
 * [Instalar ZABBIX 5.0 en CentOS 7](guia/instalarCentOS7Zabbix50.rst) 
